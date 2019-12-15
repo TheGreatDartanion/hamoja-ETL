@@ -21,7 +21,7 @@ import pymysql
 import pandas as pd
 
 # JSON
-import json
+# import json
 
 # Import your config file(s) and variable(s)
 if is_heroku == False:
