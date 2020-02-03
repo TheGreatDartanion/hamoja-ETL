@@ -44,7 +44,7 @@ app = Flask(__name__)
 # Set up SQL Alchemy connection and classes
 Base = automap_base() # Declare a Base using `automap_base()`
 Base.prepare(engine, reflect=True) # Use the Base class to reflect the database tables
-Base.prepare(engine, reflect=True) # Use the Base class to reflect the database tables
+#Base.prepare(engine, reflect=True) # Use the Base class to reflect the database tables
 Base.classes.keys() # Print all of the classes mapped to the Base
 ClientInfo = Base.classes.client_info # Assign the client_info class (table) to a variable called `ClientInfo`
 session = Session(engine) # Create a session
